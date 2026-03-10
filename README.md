@@ -22,7 +22,7 @@ Instead of fighting web frameworks with JavaScript, this bot drops down to the L
 
 ## 🚀 Roadmap / To-Do List
 
-> **⚠️ Release Notice:** Version 1.0 (V1) will not be officially released until every item on the V1 Checklist is 100% complete. 
+> **⚠️ Release Notice:** Version 1.0 (V1) will not be officially released until every item on the V1 Checklist is 100% complete. Est. early April 26
 
 ### 🟢 V1 Checklist
 - [ ] **Multiple Box Support:** Logic to handle complex algebra questions that require tabbing between multiple input fields (e.g., fractions, coordinates).

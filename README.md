@@ -25,16 +25,16 @@ Instead of fighting web frameworks with JavaScript, this bot drops down to the L
 > **⚠️ Release Notice:** Version 1.0 (V1) will not be officially released until every item on the V1 Checklist is 100% complete. Est. early April 26
 
 ### 🟢 V1 Checklist
-- [ ] **Multiple Box Support:** Logic to handle complex algebra questions that require tabbing between multiple input fields (e.g., fractions, coordinates).
-- [ ] **Backup Model Chooser:** Automatically failover to alternative APIs (like Claude or OpenAI) if the primary Gemini API goes down or hits rate limits.
-- [ ] **Smarter AI:** Improved prompting and vision-context interpretation to handle multi-part questions and complex spatial screen layouts seamlessly.
+- [x] **Multiple Box Support:** Logic to handle complex algebra questions that require tabbing between multiple input fields (e.g., fractions, coordinates).
+- [x] **Backup Model Chooser:** Automatically failover to alternative APIs (like Claude or OpenAI) if the primary Gemini API goes down or hits rate limits.
+- [x] **Smarter AI:** Improved prompting and vision-context interpretation to handle multi-part questions and complex spatial screen layouts seamlessly.
 
 ### <img src="https://github.com/user-attachments/assets/2c45494e-b934-4d68-a608-fcfe8efca386" height="24" style="vertical-align: middle;" alt="V1 Plus"> Future Features
-- [ ] **AIO Install Script:** A single-command bash script to automatically install dependencies, configure `xhost`, set up `evdev` rules, and pack the Chrome extension.
-- [ ] **Humanized Typing Cadence:** Add randomized, per-character milliseconds delays and occasional "typo-then-backspace" logic to defeat behavioral biometrics.
+- [x] **AIO Install Script:** A single-command bash script to automatically install dependencies, configure `xhost`, set up `evdev` rules, and pack the Chrome extension.
+- [x] **Humanized Typing Cadence:** Add randomized, per-character milliseconds delays and occasional "typo-then-backspace" logic to defeat behavioral biometrics.
 - [ ] **Interactive Graphing Support:** Enable the AI to click and drag points on interactive coordinate plane questions.
 - [ ] **Cross-Platform Presets:** Pre-configured rule sets tailored for specific platforms (Sparx Maths, DrFrostMaths, Hegarty, etc.) to optimize answer formatting.
-- [ ] **Local OCR Pre-processing:** Run lightweight local OCR on the screenshots to extract text before sending to the LLM, reducing token costs and improving accuracy.
+- [x] **Local OCR Pre-processing:** Run lightweight local OCR on the screenshots to extract text before sending to the LLM, reducing token costs and improving accuracy.
 - [ ] **Headless VM Support:** Allow the entire bot (browser and virtual keyboard) to run completely invisibly inside a Docker container with a virtual display buffer (Xvfb).
 
 ---
